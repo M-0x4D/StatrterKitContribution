@@ -1,0 +1,18 @@
+{
+    "require-dev": {
+    
+        "barryvdh/laravel-ide-helper": "^2.7"
+    
+    },
+    "require": {
+        "illuminate/database": "8.83.22",
+        "symfony/dotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MvcCore\\Jtl\\": "Src/",
+            "ox4D\\cli\\": "cli/",
+            "GlobalFunctions\\": "Global/"
+        }
+}
+}
