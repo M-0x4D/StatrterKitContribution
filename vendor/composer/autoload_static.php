@@ -29,6 +29,11 @@ class ComposerStaticInite65c653c2a53d4c636ba31376b3ec7a8
         array (
             'phpDocumentor\\Reflection\\' => 25,
         ),
+        'o' => 
+        array (
+            'ox4D\\cli\\' => 9,
+            'ox4D\\PluginHooks\\' => 17,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
@@ -67,6 +72,10 @@ class ComposerStaticInite65c653c2a53d4c636ba31376b3ec7a8
             'Illuminate\\Container\\' => 21,
             'Illuminate\\Console\\' => 19,
         ),
+        'G' => 
+        array (
+            'GlobalFunctions\\' => 16,
+        ),
         'D' => 
         array (
             'Doctrine\\Inflector\\' => 19,
@@ -95,6 +104,14 @@ class ComposerStaticInite65c653c2a53d4c636ba31376b3ec7a8
         array (
             0 => __DIR__ . '/..' . '/phpdocumentor/reflection-common/src',
             1 => __DIR__ . '/..' . '/phpdocumentor/type-resolver/src',
+        ),
+        'ox4D\\cli\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/cli',
+        ),
+        'ox4D\\PluginHooks\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/PluginHook',
         ),
         'Symfony\\Polyfill\\Php80\\' => 
         array (
@@ -201,6 +218,10 @@ class ComposerStaticInite65c653c2a53d4c636ba31376b3ec7a8
         'Illuminate\\Console\\' => 
         array (
             0 => __DIR__ . '/..' . '/illuminate/console',
+        ),
+        'GlobalFunctions\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Global',
         ),
         'Doctrine\\Inflector\\' => 
         array (

@@ -15,6 +15,7 @@ use MvcCore\Jtl\Support\Facades\Configs\Configs;
  * 
  */
 define('TESTGLOBAL', 'testGlobalValue');
+define('PAYPALREQUEST', 'PAYPALREQUEST');
 
 
 
@@ -109,8 +110,9 @@ function executePluginHook(string $HOOK, array $params)
     $Hooks = require_once __DIR__ . '/../PluginHook/HOOKS.php';
     foreach ($Hooks as $hook => $action) {
         if ($hook === $HOOK) {
+            $controller = $action[0];
             $method = $action[1];
-            $action[0]::$method($params);
+            $controller::$method($params);
         }
     }
 }

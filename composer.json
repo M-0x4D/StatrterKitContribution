@@ -12,7 +12,8 @@
         "psr-4": {
             "MvcCore\\Jtl\\": "Src/",
             "ox4D\\cli\\": "cli/",
-            "GlobalFunctions\\": "Global/"
+            "GlobalFunctions\\": "Global/",
+            "ox4D\\PluginHooks\\" : "PluginHook/"
         }
 }
 }

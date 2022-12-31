@@ -2,6 +2,7 @@
 
 namespace ox4D\cli\Models;
 
+
 class CreateModel
 {
     protected static $fileName;
@@ -31,6 +32,7 @@ use Illuminate\Database\Eloquent\Model;
     }";
         fwrite($myfile, $txt);
         fclose($myfile);
+
         echo "[+] $fileName Model created successfully!\n";
 
     }
